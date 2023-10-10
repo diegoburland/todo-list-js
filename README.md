@@ -1,37 +1,42 @@
-To-Do List en Node.js
-Una simple aplicación to-do list construida con Node.js y JavaScript puro.
+# To-Do List in Node.js
 
-Características
-Añade tareas a la lista.
-Haz clic en una tarea para eliminarla.
-No se utiliza ninguna base de datos; la lista se reinicia al refrescar la página.
-Requisitos previos
-Node.js y npm.
-Instalación
-Clona este repositorio o descárgalo.
+A simple to-do list application built with Node.js and pure JavaScript.
 
-bash
-Copy code
-git clone [URL_DEL_REPO]
-cd node-todolist
-Instala las dependencias necesarias:
+## Features
 
-bash
-Copy code
-npm install
-Ejecuta el servidor:
+- Add tasks to the list.
+- Click on a task to remove it.
+- No database is used; the list resets upon refreshing the page.
 
-bash
-Copy code
-node server.js
-Abre un navegador y ve a http://localhost:3000 para acceder a la aplicación.
+## Prerequisites
 
-Uso
-Introduce una tarea en el campo de entrada.
-Haz clic en el botón "Add" para añadir la tarea a la lista.
-Para eliminar una tarea, simplemente haz clic en ella.
-Contribuciones
-Las contribuciones son bienvenidas. Siéntete libre de abrir un problema o hacer un pull request.
+- [Node.js](https://nodejs.org/) and npm.
 
-Licencia
+## Installation
+
+1. Clone this repository or download it:
+   ```bash
+   git clone [REPO_URL]
+   cd node-todolist
+
+2. Install the required dependencies::
+   ```bash
+   npm install
+
+3. Run the server:
+    ```bash
+    node server.js
+4. Open a browser and go to http://localhost:3000 to access the application.
+
+## Usage
+1. Enter a task into the input field.
+2. Click the "Add" button to add the task.
+3. To remove a task, simply click on it.
+
+## Contributions
+Contributions are welcome. Feel free to open an issue or make a pull request.
+
+## License
 MIT
+
+
